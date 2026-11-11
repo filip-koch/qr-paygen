@@ -1,25 +1,32 @@
 {
   "name": "qr-paygen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "High-quality Czech & Slovak SPAYD payment QR code generator for Node.js with authentic QR Platba frame, center logo, and PNG/SVG/WebP support",
+  "main": "qr-paygen.js",
+  "bin": {
+    "qr-paygen": "./qr-paygen.js"
+  },
+  "types": "qr-paygen.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/filip-koch/qr-paygen.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/filip-koch/qr-paygen/issues"
-  },
-  "homepage": "https://github.com/filip-koch/qr-paygen#readme",
+  "keywords": [
+    "spayd",
+    "qr-platba",
+    "qr-code",
+    "payment",
+    "czech",
+    "slovak",
+    "cba",
+    "iban",
+    "qr-payment",
+    "platba"
+  ],
+  "author": "Filip Koch",
+  "license": "MIT",
   "dependencies": {
     "qrcode": "^1.5.4",
-    "sharp": "^0.35.5"
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "jsqr": "^1.4.0"
