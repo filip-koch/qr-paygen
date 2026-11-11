@@ -1,0 +1,27 @@
+{
+  "name": "qr-paygen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filip-koch/qr-paygen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filip-koch/qr-paygen/issues"
+  },
+  "homepage": "https://github.com/filip-koch/qr-paygen#readme",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "jsqr": "^1.4.0"
+  }
+}
